@@ -11,6 +11,7 @@
  * (see http://getbootstrap.com/customize/#less-variables)
  * ------------------------------------- */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
 /* line 9, /home/acer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -9128,51 +9129,61 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
-/* line 1, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_footer.css.scss */
-footer {
-  background-color: grey;
-  color: white;
-  bottom: 0px;
-  right: 0px;
-  width: 100%;
-  position: absolute;
+/* line 1, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_footer.css.scss */
+#footer {
+  color: #CCCCCC;
+  font-size: 12px;
+  font-family: 'Arial Regular';
   text-align: center;
-  border-top: 1px solid black; }
-  /* line 11, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_footer.css.scss */
-  footer h2 {
-    font-size: 1.2em;
-    margin-bottom: 0px;
-    margin-top: 10px; }
-  /* line 16, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_footer.css.scss */
-  footer h3 {
-    font-size: 1em;
-    margin-top: 0px; }
+  width: 100%;
+  bottom: 0px;
+  padding: 30px 0;
+  position: relative; }
 
-/* line 1, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_navbar.css.scss */
-.navbar-wagon {
+/* line 13, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_footer.css.scss */
+#footer p {
+  margin-top: 14px; }
+
+/* line 16, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_footer.css.scss */
+#footer ul {
+  margin-top: 10px; }
+
+/* line 19, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_footer.css.scss */
+#footer a {
+  color: #CCCCCC;
+  font-size: 30px;
+  letter-spacing: 20px;
+  transition: color 0.5s ease; }
+
+/* line 25, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_footer.css.scss */
+#footer a:hover {
+  color: yellow; }
+
+/* line 1, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_navbar.css.scss */
+.navbar-beardworld {
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.07), 0 1px 0 0 rgba(0, 0, 0, 0.03);
   background: white; }
-  /* line 4, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_navbar.css.scss */
-  .navbar-wagon-logo {
+  /* line 4, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_navbar.css.scss */
+  .navbar-beardworld-logo {
     width: 50px; }
-  /* line 7, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_navbar.css.scss */
-  .navbar-wagon-container {
+  /* line 7, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_navbar.css.scss */
+  .navbar-beardworld-container {
     display: flex;
     height: 70px;
     align-items: center; }
-  /* line 12, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_navbar.css.scss */
-  .navbar-wagon-item {
+  /* line 12, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_navbar.css.scss */
+  .navbar-beardworld-item {
     flex: 0 1 auto;
     padding: 0 10px; }
-  /* line 16, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_navbar.css.scss */
-  .navbar-wagon-search {
+  /* line 16, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_navbar.css.scss */
+  .navbar-beardworld-search {
     flex: 1 1 auto;
     display: flex;
     justify-content: flex-end;
     padding: 0 10px;
     position: relative; }
-    /* line 22, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_navbar.css.scss */
-    .navbar-wagon-search-btn {
+    /* line 22, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_navbar.css.scss */
+    .navbar-beardworld-search-btn {
       line-height: 40px;
       color: #E6E6E6;
       border: none;
@@ -9181,8 +9192,8 @@ footer {
       right: 10px;
       top: -2px;
       z-index: 1; }
-    /* line 32, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_navbar.css.scss */
-    .navbar-wagon-search-input {
+    /* line 32, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_navbar.css.scss */
+    .navbar-beardworld-search-input {
       flex: 0 1 300px;
       transition: all 0.15s ease;
       line-height: 40px;
@@ -9193,50 +9204,50 @@ footer {
       padding: 0 10px;
       font-size: 14px;
       outline: none; }
-    /* line 44, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_navbar.css.scss */
-    .navbar-wagon-search-input:focus {
+    /* line 44, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_navbar.css.scss */
+    .navbar-beardworld-search-input:focus {
       border: 1px solid #CCCCCC; }
-  /* line 48, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_navbar.css.scss */
-  .navbar-wagon-link {
+  /* line 48, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_navbar.css.scss */
+  .navbar-beardworld-link {
     color: #616668;
-    font-size: 14px; }
-    /* line 51, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_navbar.css.scss */
-    .navbar-wagon-link:hover {
+    font-size: 15px; }
+    /* line 51, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_navbar.css.scss */
+    .navbar-beardworld-link:hover {
       color: #da552f;
       text-decoration: none; }
-  /* line 56, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_navbar.css.scss */
-  .navbar-wagon-button {
+  /* line 56, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_navbar.css.scss */
+  .navbar-beardworld-button {
     padding: 0 20px;
     border-radius: 20em;
     line-height: 40px;
     background-color: #D23333;
     color: white;
-    font-size: 14px;
+    font-size: 15px;
     border: 2px solid #D23333; }
-    /* line 65, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_navbar.css.scss */
-    .navbar-wagon-button:hover {
+    /* line 65, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_navbar.css.scss */
+    .navbar-beardworld-button:hover {
       color: white;
       background: #D23333;
       border-color: #ac2626; }
-  /* line 71, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_navbar.css.scss */
-  .navbar-wagon-dropdown-menu {
+  /* line 71, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_navbar.css.scss */
+  .navbar-beardworld-dropdown-menu {
     margin-top: 15px;
     box-shadow: 1px 1px 4px #E6E6E6;
     border-color: #E6E6E6; }
-    /* line 75, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_navbar.css.scss */
-    .navbar-wagon-dropdown-menu li > a {
+    /* line 75, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_navbar.css.scss */
+    .navbar-beardworld-dropdown-menu li > a {
       transition: color 0.3s ease;
       font-weight: lighter !important;
       color: #999999 !important;
       font-size: 15px !important;
       line-height: 22px !important;
       padding: 10px 20px; }
-      /* line 82, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_navbar.css.scss */
-      .navbar-wagon-dropdown-menu li > a:hover {
+      /* line 82, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_navbar.css.scss */
+      .navbar-beardworld-dropdown-menu li > a:hover {
         background: transparent !important;
         color: black !important; }
-    /* line 87, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_navbar.css.scss */
-    .navbar-wagon-dropdown-menu:before {
+    /* line 87, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_navbar.css.scss */
+    .navbar-beardworld-dropdown-menu:before {
       content: ' ';
       height: 20px;
       width: 20px;
@@ -9248,81 +9259,620 @@ footer {
       border-left: 1px solid #E6E6E6;
       border-top: 1px solid #E6E6E6; }
 
-/* -------------------------------------
- * Utilities classes
- * These are examples of utilities classes
- * Feel free to change them and create your own
- * ------------------------------------- */
-/* line 8, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_utilities.css.scss */
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+/* line 12, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+/* line 30, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 41, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+/* line 50, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 64, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
+
+/*
+ * Removes default margin.
+ */
+/* line 74, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 86, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+a:focus {
+  outline: thin dotted; }
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+/* line 94, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+/* line 108, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+h1 {
+  font-size: 2em; }
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 116, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 124, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+b,
+strong {
+  font-weight: bold; }
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+/* line 133, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+dfn {
+  font-style: italic; }
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+/* line 141, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+/* line 151, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+/* line 163, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/*
+ * Sets consistent quote types.
+ */
+/* line 173, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+/* line 181, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+small {
+  font-size: 80%; }
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 189, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 197, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+sup {
+  top: -0.5em; }
+
+/* line 201, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+/* line 213, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+img {
+  border: 0; }
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+/* line 221, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+/* line 233, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Define consistent border, margin, and padding.
+ */
+/* line 245, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 256, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+/* line 267, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 281, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+button,
+input {
+  line-height: normal; }
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 294, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+/* line 306, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+/* line 316, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 328, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  /* 2 */
+  box-sizing: content-box; }
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 340, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+/* line 349, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+/* line 360, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+/* line 373, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_normalize.css.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 1, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_reset.css.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* line 1, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_reset.css.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 1, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_reset.css.scss */
+body {
+  line-height: 1; }
+
+/* line 1, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_reset.css.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 1, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_reset.css.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 1, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_reset.css.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 1, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_reset.css.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 1, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+body {
+  overflow: auto;
+  margin: 0;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Gloria Hallelujah', cursive; }
+
+/* line 11, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+canvas {
+  background-color: black;
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1; }
+
+/* line 25, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 42px;
+  letter-spacing: 5.5px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  padding: 20px 0px 10px 0px; }
+
+/* line 35, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+h2 {
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0.2px; }
+
+/* line 48, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+.text-center {
+  text-align: center; }
+
+/* line 51, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
 .padded {
-  padding-top: 5em;
-  padding-bottom: 5em; }
+  padding: 2em 0; }
+  /* line 54, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+  .padded h2 {
+    font-size: 24px;
+    letter-spacing: 0.2px; }
 
-/* line 14, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_utilities.css.scss */
-.bg-text {
-  background: #4a4a4a; }
+/* banner design */
+/* line 62, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+.banner {
+  background-size: cover;
+  color: white;
+  padding: 100px;
+  position: relative;
+  z-index: 0; }
 
-/* line 17, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_utilities.css.scss */
-.bg-email {
-  background: #aeaeae; }
+/* line 69, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+.banner-shadow {
+  background-image: linear-gradient(-225deg, rgba(0, 101, 168, 0.6) 0%, rgba(0, 36, 61, 0.6) 50%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1; }
 
-/* line 20, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_utilities.css.scss */
-.bg-twitter {
-  background: #00a3e1; }
+/* line 78, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+.banner-content {
+  position: relative;
+  z-index: 2; }
 
-/* line 23, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/layout/_utilities.css.scss */
-.bg-facebook {
-  background: #3b5998; }
+/* line 82, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+.banner h1 {
+  font-weight: bold; }
 
-/* line 1, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/components/_avatar.scss */
+/* line 85, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+.banner p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8); }
+
+/* ----------- */
+/* card design */
+/* line 92, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+.card {
+  position: relative;
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  color: white;
+  margin: 20px auto; }
+
+/* line 99, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+.card-bg {
+  background-size: cover;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%; }
+
+/* line 107, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+.card-shadow {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 80%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%; }
+
+/* line 114, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+.card-description {
+  font-size: 10px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 10px;
+  left: 10px; }
+
+/* line 121, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+.card-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px; }
+
+/* line 126, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+.card-text h2 {
+  font-size: 24px; }
+
+/* line 129, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+.card-text p {
+  font-size: 13px; }
+
+/* line 132, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px; }
+
+/* line 137, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0; }
+
+/* line 146, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+.card-link:hover {
+  opacity: 0.1; }
+
+/* ----------- */
+/* feature design */
+/* line 152, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+.feature h2 {
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: bold;
+  color: #666666; }
+
+/* line 158, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+.feature p {
+  font-size: 15px;
+  color: #B3B3B3;
+  font-weight: 300; }
+
+/* line 163, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_utilities.css.scss */
+.feature img {
+  height: 23px;
+  margin-right: 5px; }
+
+/* ----------- */
+/* line 1, /home/acer/middleman_apps/beard_world/source/stylesheets/components/_avatar.scss */
 .avatar {
   width: 30px;
   border-radius: 50%; }
-  /* line 4, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/components/_avatar.scss */
+  /* line 4, /home/acer/middleman_apps/beard_world/source/stylesheets/components/_avatar.scss */
   .avatar-bordered {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     border: white 1px solid; }
-  /* line 8, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/components/_avatar.scss */
+  /* line 8, /home/acer/middleman_apps/beard_world/source/stylesheets/components/_avatar.scss */
   .avatar-large {
-    width: 50px; }
+    width: 55px; }
 
-/* line 1, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/components/_badge.scss */
+/* line 13, /home/acer/middleman_apps/beard_world/source/stylesheets/components/_avatar.scss */
+avatar {
+  width: 30px;
+  border-radius: 50%; }
+
+/* line 17, /home/acer/middleman_apps/beard_world/source/stylesheets/components/_avatar.scss */
+.avatar-bordered {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border: white 1px solid; }
+
+/* line 21, /home/acer/middleman_apps/beard_world/source/stylesheets/components/_avatar.scss */
+.avatar-large {
+  width: 50px; }
+
+/* line 1, /home/acer/middleman_apps/beard_world/source/stylesheets/components/_badge.scss */
 .icon-badge-container {
   position: relative;
   font-size: 20px;
-  color: grey; }
+  color: black; }
 
-/* line 6, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/components/_badge.scss */
+/* line 6, /home/acer/middleman_apps/beard_world/source/stylesheets/components/_badge.scss */
 .user-badge-container {
   position: relative;
   width: 30px;
   margin: 0 auto; }
 
-/* line 11, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/components/_badge.scss */
+/* line 11, /home/acer/middleman_apps/beard_world/source/stylesheets/components/_badge.scss */
 .icon-badge, .user-badge {
   position: absolute;
   top: -5px;
   right: -10px;
   font-size: 10px;
   color: white;
-  line-height: 18px;
-  width: 18px;
+  line-height: 15px;
+  width: 15px;
   text-align: center;
   border-radius: 50%;
   background: grey; }
-  /* line 22, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/components/_badge.scss */
+  /* line 22, /home/acer/middleman_apps/beard_world/source/stylesheets/components/_badge.scss */
   .icon-badge-red, .user-badge-red {
     background: #EE5F5B; }
-  /* line 25, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/components/_badge.scss */
+  /* line 25, /home/acer/middleman_apps/beard_world/source/stylesheets/components/_badge.scss */
   .icon-badge-green, .user-badge-green {
     background: #32B796; }
-  /* line 28, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/components/_badge.scss */
+  /* line 28, /home/acer/middleman_apps/beard_world/source/stylesheets/components/_badge.scss */
   .icon-badge-blue, .user-badge-blue {
     background: #469AE0; }
-  /* line 31, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/components/_badge.scss */
+  /* line 31, /home/acer/middleman_apps/beard_world/source/stylesheets/components/_badge.scss */
   .icon-badge-black, .user-badge-black {
     background: black; }
-  /* line 34, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/components/_badge.scss */
+  /* line 34, /home/acer/middleman_apps/beard_world/source/stylesheets/components/_badge.scss */
   .icon-badge-bordered, .user-badge-bordered {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     border: white 1px solid; }
@@ -9345,7 +9895,7 @@ justin@justinaguilar.com
 slideDown
 ==============================================
 */
-/* line 23, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 23, /home/acer/middleman_apps/beard_world/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideDown {
   animation-name: slideDown;
   -webkit-animation-name: slideDown;
@@ -9373,7 +9923,7 @@ slideDown
 slideUp
 ==============================================
 */
-/* line 85, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 85, /home/acer/middleman_apps/beard_world/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideUp {
   animation-name: slideUp;
   -webkit-animation-name: slideUp;
@@ -9401,7 +9951,7 @@ slideUp
 slideLeft
 ==============================================
 */
-/* line 147, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 147, /home/acer/middleman_apps/beard_world/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideLeft {
   animation-name: slideLeft;
   -webkit-animation-name: slideLeft;
@@ -9429,7 +9979,7 @@ slideLeft
 slideRight
 ==============================================
 */
-/* line 209, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 209, /home/acer/middleman_apps/beard_world/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideRight {
   animation-name: slideRight;
   -webkit-animation-name: slideRight;
@@ -9457,7 +10007,7 @@ slideRight
 slideExpandUp
 ==============================================
 */
-/* line 271, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 271, /home/acer/middleman_apps/beard_world/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideExpandUp {
   animation-name: slideExpandUp;
   -webkit-animation-name: slideExpandUp;
@@ -9491,7 +10041,7 @@ slideExpandUp
 expandUp
 ==============================================
 */
-/* line 351, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 351, /home/acer/middleman_apps/beard_world/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .expandUp {
   animation-name: expandUp;
   -webkit-animation-name: expandUp;
@@ -9515,7 +10065,7 @@ expandUp
 fadeIn
 ==============================================
 */
-/* line 400, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 400, /home/acer/middleman_apps/beard_world/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .fadeIn {
   animation-name: fadeIn;
   -webkit-animation-name: fadeIn;
@@ -9542,7 +10092,7 @@ fadeIn
 expandOpen
 ==============================================
 */
-/* line 456, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 456, /home/acer/middleman_apps/beard_world/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .expandOpen {
   animation-name: expandOpen;
   -webkit-animation-name: expandOpen;
@@ -9568,7 +10118,7 @@ expandOpen
 bigEntrance
 ==============================================
 */
-/* line 512, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 512, /home/acer/middleman_apps/beard_world/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .bigEntrance {
   animation-name: bigEntrance;
   -webkit-animation-name: bigEntrance;
@@ -9605,7 +10155,7 @@ bigEntrance
 hatch
 ==============================================
 */
-/* line 593, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 593, /home/acer/middleman_apps/beard_world/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .hatch {
   animation-name: hatch;
   -webkit-animation-name: hatch;
@@ -9638,7 +10188,7 @@ hatch
 bounce
 ==============================================
 */
-/* line 666, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 666, /home/acer/middleman_apps/beard_world/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .bounce {
   animation-name: bounce;
   -webkit-animation-name: bounce;
@@ -9668,7 +10218,7 @@ bounce
 pulse
 ==============================================
 */
-/* line 730, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 730, /home/acer/middleman_apps/beard_world/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pulse {
   animation-name: pulse;
   -webkit-animation-name: pulse;
@@ -9692,7 +10242,7 @@ pulse
 floating
 ==============================================
 */
-/* line 777, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 777, /home/acer/middleman_apps/beard_world/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .floating {
   animation-name: floating;
   -webkit-animation-name: floating;
@@ -9713,7 +10263,7 @@ floating
 tossing
 ==============================================
 */
-/* line 818, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 818, /home/acer/middleman_apps/beard_world/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .tossing {
   animation-name: tossing;
   -webkit-animation-name: tossing;
@@ -9734,7 +10284,7 @@ tossing
 pullUp
 ==============================================
 */
-/* line 859, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 859, /home/acer/middleman_apps/beard_world/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pullUp {
   animation-name: pullUp;
   -webkit-animation-name: pullUp;
@@ -9766,7 +10316,7 @@ pullUp
 pullDown
 ==============================================
 */
-/* line 928, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 928, /home/acer/middleman_apps/beard_world/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pullDown {
   animation-name: pullDown;
   -webkit-animation-name: pullDown;
@@ -9798,7 +10348,7 @@ pullDown
 stretchLeft
 ==============================================
 */
-/* line 997, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 997, /home/acer/middleman_apps/beard_world/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .stretchLeft {
   animation-name: stretchLeft;
   -webkit-animation-name: stretchLeft;
@@ -9830,7 +10380,7 @@ stretchLeft
 stretchRight
 ==============================================
 */
-/* line 1066, /home/acer/code/R-MDx/My-Own-Project-With-MiddleMan/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 1066, /home/acer/middleman_apps/beard_world/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .stretchRight {
   animation-name: stretchRight;
   -webkit-animation-name: stretchRight;

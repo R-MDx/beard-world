@@ -11,10 +11,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title>Le Wagon Middleman boilerplate</title>
+    <title>Beard World</title>
+    <link rel="shortcut icon" href="images/download.png" type="image/png"/>
 
     <link href="stylesheets/all.css" rel="stylesheet" type="text/css" />
-    <script src="javascripts/all.js" type="text/javascript"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -22,42 +22,45 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
   </head>
-
   <body class="index">
-    <nav class="navbar-wagon">
-  <div class="container navbar-wagon-container">
 
-<a href="/">      <img class="navbar-wagon-logo" src="images/lewagon.png" />
+    <canvas id="canvas"></canvas>
+    <script src="javascripts/all.js" type="text/javascript"></script>
+    <nav class="navbar-beardworld">
+  <div class="container navbar-beardworld-container">
+
+<a href="/">      <img class="navbar-beardworld-logo" src="images/download.png" />
 </a>
-    <form action="" class="navbar-wagon-search">
-      <input type="text" class="navbar-wagon-search-input hidden-xs" placeholder="Search for featured stuff">
-      <button type="submit" class="navbar-wagon-search-btn hidden-xs">
+    <form action="" class="navbar-beardworld-search">
+      <input type="text" class="navbar-beardworld-search-input hidden-xs" placeholder="Shampoo, Oils, Conditioner, ...">
+      <button type="submit" class="navbar-beardworld-search-btn hidden-xs">
         <i class="fa fa-search"></i>
       </button>
     </form>
 
-    <div class="navbar-wagon-item">
-      <a href="" class="navbar-wagon-button btn btn-default">Post stuff</a>
+    <div class="navbar-beardworld-item">
+      <a href="" class="navbar-beardworld-button btn btn-default">All Products</a>
     </div>
 
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Contact</a>
+    <a href="" class="navbar-beardworld-item navbar-beardworld-link">Help ?</a>
 
-    <a href="" class="navbar-wagon-item navbar-wagon-link">
+    <a href="" class="navbar-beardworld-item navbar-beardworld-link">
       <div class="icon-badge-container">
-        <i class="fa fa-envelope-o"></i>
+        <i class="fa fa-shopping-cart"></i>
         <div class="icon-badge icon-badge-blue">3</div>
       </div>
     </a>
 
-    <div class="navbar-wagon-item">
+    <div class="navbar-beardworld-item">
       <div class="dropdown">
 
-        <img src="https://raw.githubusercontent.com/lewagon/design/master/pick-it/pictures/students/charlotte_cady.jpg" alt="" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <img src="images/profile-icon.jpg" alt="" class="avatar-large dropdown-toggle" id="navbar-beardworld-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 
-        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu" aria-labelledby="navbar-wagon-menu">
+        <ul class="dropdown-menu dropdown-menu-right navbar-beardworld-dropdown-menu" aria-labelledby="navbar-beardworld-menu">
           <li><a href="#">Profile</a></li>
-          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Subscriptions</a></li>
           <li><a href="#">Log Out</a></li>
         </ul>
 
@@ -66,18 +69,309 @@
 
   </div>
 </nav>
-    <div class="welcome text-center padded">
-  <h1>Middleman is Watching</h1>
-  <h2>Roy I'm Watching Yooooouuuu!</h2>
-  <p class="doc">
-    <a href="http://middlemanapp.com/">Read Online Documentation</a>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
 
-    <footer>
-  <h2>Roy Melhem</h2>
-  <h3>FULL TIME DEVELOPER @ lEwAGON bEIRUT</h3>
-</footer>
+    <!-- <div id="main">
+
+
+ -->
+
+<body>
+<!--   <div class="banner text-center" style="background-image: url('http://unsplash.it/1000/700/?image=0')">
+    <div class="banner-shadow"></div>
+    <div class="banner-content fade-and-slide">
+      <h1>Startup tools</h1>
+      <p>Very cool stuff and useful</p>
+      <a href="#" class="btn btn-primary btn-lg">GET IT</a>
+    </div>
+  </div>
+
+  <div class="padded">
+    <div class="container">
+      <div class="col-xs-12 col-sm-3">
+        <div class="feature">
+          <h2>
+            <img src="images/chat.png" alt="">
+            Discuss best tools
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni.
+          </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <div class="feature">
+          <h2>
+            <img src="images/mobile.png" alt="">
+            Always in sync
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia beatae, repellendus eveniet alias vel laboriosam, necessitatibus error cum asperiores facere aliquam consectetur ad impedit molestiae, harum? Vel, quidem, sit.
+          </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <div class="feature">
+          <h2>
+            <img src="images/search.png" alt="">
+            Powerful search
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis optio adipisci minus vero voluptatum soluta corporis alias ut commodi non quaerat quasi reprehenderit sit dolore nulla qui cum explicabo, possimus.
+          </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <div class="feature">
+          <h2>
+            <img src="images/heart.png" alt="">
+            Share the love
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ab cumque delectus, reiciendis fugit molestiae totam obcaecati exercitationem illum amet, recusandae, odio est. Repudiandae sapiente provident, sint reprehenderit necessitatibus, magni.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+ -->
+  <div class="text-center">
+    <h1>beard world</h1>
+    <h2>The one-stop shop for all your beard needs</h2>
+    <h2>" There are two types of people in the world without beards: women and children. I am neither one. " - Marcian Diamond</h2>
+  </div>
+  <div class="padded">
+    <h2 class="section-header text-center">Shampoo</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <div class="card">
+            <span class="card-bg" style="background-image: url('images/shampoo.jpg')"></span>
+            <span class="card-shadow"></span>
+            <span class="card-description">Popular</span>
+            <span class="card-text">
+              <h2>Cynthia Sylvia Stout</h2>
+              <p>Very cool stuff and useful</p>
+            </span>
+            <span class="card-user">
+              <img src="http://placehold.it/50x50" class="avatar avatar-bordered">
+            </span>
+            <a href="#" class="card-link"></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="card">
+            <span class="card-bg" style="background-image: url('images/shampoo.jpg')"></span>
+            <span class="card-shadow"></span>
+            <span class="card-description">Popular</span>
+            <span class="card-text">
+              <h2>Cynthia Sylvia Stout</h2>
+              <p>Very cool stuff and useful</p>
+            </span>
+            <span class="card-user">
+              <img src="http://placehold.it/50x50" class="avatar avatar-bordered">
+            </span>
+            <a href="#" class="card-link"></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="card">
+            <span class="card-bg" style="background-image: url('images/shampoo.jpg')"></span>
+            <span class="card-shadow"></span>
+            <span class="card-description">Popular</span>
+            <span class="card-text">
+              <h2>Cynthia Sylvia Stout</h2>
+              <p>Very cool stuff and useful</p>
+            </span>
+            <span class="card-user">
+              <img src="http://placehold.it/50x50" class="avatar avatar-bordered">
+            </span>
+            <a href="#" class="card-link"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="padded">
+    <h2 class="section-header text-center">Essentiel Oils</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <div class="card">
+            <span class="card-bg" style="background-image: url('http://cdn.trendhunterstatic.com/thumbs/beard-pack.jpeg')"></span>
+            <span class="card-shadow"></span>
+            <span class="card-description">Popular</span>
+            <span class="card-text">
+              <h2>Beard Pack</h2>
+              <p>Very cool stuff and useful</p>
+            </span>
+            <span class="card-user">
+              <img src="http://placehold.it/50x50" class="avatar avatar-bordered">
+            </span>
+            <a href="#" class="card-link"></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="card">
+            <span class="card-bg" style="background-image: url('http://cdn.trendhunterstatic.com/thumbs/beard-pack.jpeg')"></span>
+            <span class="card-shadow"></span>
+            <span class="card-description">Popular</span>
+            <span class="card-text">
+              <h2>Beard Pack</h2>
+              <p>Very cool stuff and useful</p>
+            </span>
+            <span class="card-user">
+              <img src="http://placehold.it/50x50" class="avatar avatar-bordered">
+            </span>
+            <a href="#" class="card-link"></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="card">
+            <span class="card-bg" style="background-image: url('http://cdn.trendhunterstatic.com/thumbs/beard-pack.jpeg')"></span>
+            <span class="card-shadow"></span>
+            <span class="card-description">Popular</span>
+            <span class="card-text">
+              <h2>Beard Pack</h2>
+              <p>Very cool stuff and useful</p>
+            </span>
+            <span class="card-user">
+              <img src="http://placehold.it/50x50" class="avatar avatar-bordered">
+            </span>
+            <a href="#" class="card-link"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="padded">
+    <h2 class="section-header text-center">Conditioners</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <div class="card">
+            <span class="card-bg" style="background-image: url('http://4.bp.blogspot.com/-Qnog44aZsCU/VP0I6tbyj6I/AAAAAAAAEsA/IXAzRD3H9Ns/s1600/smooth%2Bviking5.jpg')"></span>
+            <span class="card-shadow"></span>
+            <span class="card-description">Popular</span>
+            <span class="card-text">
+              <h2>Smooth Viking</h2>
+              <p>Very cool stuff and useful</p>
+            </span>
+            <span class="card-user">
+              <img src="http://placehold.it/50x50" class="avatar avatar-bordered">
+            </span>
+            <a href="#" class="card-link"></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="card">
+            <span class="card-bg" style="background-image: url('http://4.bp.blogspot.com/-Qnog44aZsCU/VP0I6tbyj6I/AAAAAAAAEsA/IXAzRD3H9Ns/s1600/smooth%2Bviking5.jpg')"></span>
+            <span class="card-shadow"></span>
+            <span class="card-description">Popular</span>
+            <span class="card-text">
+              <h2>Smooth Viking</h2>
+              <p>Very cool stuff and useful</p>
+            </span>
+            <span class="card-user">
+              <img src="http://placehold.it/50x50" class="avatar avatar-bordered">
+            </span>
+            <a href="#" class="card-link"></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="card">
+            <span class="card-bg" style="background-image: url('http://4.bp.blogspot.com/-Qnog44aZsCU/VP0I6tbyj6I/AAAAAAAAEsA/IXAzRD3H9Ns/s1600/smooth%2Bviking5.jpg')"></span>
+            <span class="card-shadow"></span>
+            <span class="card-description">Popular</span>
+            <span class="card-text">
+              <h2>Smooth Viking</h2>
+              <p>Very cool stuff and useful</p>
+            </span>
+            <span class="card-user">
+              <img src="http://placehold.it/50x50" class="avatar avatar-bordered">
+            </span>
+            <a href="#" class="card-link"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <div class="card">
+            <span class="card-bg" style="background-image: url('http://4.bp.blogspot.com/-Qnog44aZsCU/VP0I6tbyj6I/AAAAAAAAEsA/IXAzRD3H9Ns/s1600/smooth%2Bviking5.jpg')"></span>
+            <span class="card-shadow"></span>
+            <span class="card-description">Popular</span>
+            <span class="card-text">
+              <h2>Smooth Viking</h2>
+              <p>Very cool stuff and useful</p>
+            </span>
+            <span class="card-user">
+              <img src="http://placehold.it/50x50" class="avatar avatar-bordered">
+            </span>
+            <a href="#" class="card-link"></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="card">
+            <span class="card-bg" style="background-image: url('http://4.bp.blogspot.com/-Qnog44aZsCU/VP0I6tbyj6I/AAAAAAAAEsA/IXAzRD3H9Ns/s1600/smooth%2Bviking5.jpg')"></span>
+            <span class="card-shadow"></span>
+            <span class="card-description">Popular</span>
+            <span class="card-text">
+              <h2>Smooth Viking</h2>
+              <p>Very cool stuff and useful</p>
+            </span>
+            <span class="card-user">
+              <img src="http://placehold.it/50x50" class="avatar avatar-bordered">
+            </span>
+            <a href="#" class="card-link"></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="card">
+            <span class="card-bg" style="background-image: url('http://4.bp.blogspot.com/-Qnog44aZsCU/VP0I6tbyj6I/AAAAAAAAEsA/IXAzRD3H9Ns/s1600/smooth%2Bviking5.jpg')"></span>
+            <span class="card-shadow"></span>
+            <span class="card-description">Popular</span>
+            <span class="card-text">
+              <h2>Smooth Viking</h2>
+              <p>Very cool stuff and useful</p>
+            </span>
+            <span class="card-user">
+              <img src="http://placehold.it/50x50" class="avatar avatar-bordered">
+            </span>
+            <a href="#" class="card-link"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center padded" id="newsletter">
+    <h2 class="section-header">Get news from us</h2>
+    <p>Leave us your mail to get the latest products</p>
+    <form class="form-inline">
+      <input placeholder="foo@bar.com" class="form-control" type="email">
+      <input value="Subscribe" class="btn btn-primary btn-bordered btn-bordered-primary" type="submit">
+    </form>
+  </div>
+
+  <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+
+    <div class="col-xs-12" id="footer">
+  <ul class="list-inline">
+    <li><a href=""><i class="fa fa-youtube"></i></a></li>
+    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+  </ul>
+
+  <p>© 2015 - BeardWorld Lebanon - Beirut Souks, Souk Ayass, Tel: 00961 1 123456</p>
+</div>
+
 
   </body>
 </html>
+
+
