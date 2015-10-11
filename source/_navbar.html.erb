@@ -1,0 +1,43 @@
+<nav class="navbar-beardworld">
+  <div class="container navbar-beardworld-container">
+
+    <% link_to "/" do %>
+      <%= image_tag "download.png", class: "navbar-beardworld-logo" %>
+    <% end %>
+
+    <form action="" class="navbar-beardworld-search">
+      <input type="text" class="navbar-beardworld-search-input hidden-xs" placeholder="Shampoo, Oils, Conditioner, ...">
+      <button type="submit" class="navbar-beardworld-search-btn hidden-xs">
+        <i class="fa fa-search"></i>
+      </button>
+    </form>
+
+    <div class="navbar-beardworld-item">
+      <a href="" class="navbar-beardworld-button btn btn-default">All Products</a>
+    </div>
+
+    <a href="" class="navbar-beardworld-item navbar-beardworld-link">Help ?</a>
+
+    <a href="" class="navbar-beardworld-item navbar-beardworld-link">
+      <div class="icon-badge-container">
+        <i class="fa fa-shopping-cart"></i>
+        <div class="icon-badge icon-badge-blue">3</div>
+      </div>
+    </a>
+
+    <div class="navbar-beardworld-item">
+      <div class="dropdown">
+
+        <img src="https://s-media-cache-ak0.pinimg.com/236x/fe/14/1a/fe141a0cdbc14211e3809685e374e0db.jpg" alt="" class="avatar-large dropdown-toggle" id="navbar-beardworld-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+
+        <ul class="dropdown-menu dropdown-menu-right navbar-beardworld-dropdown-menu" aria-labelledby="navbar-beardworld-menu">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Subscriptions</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+
+      </div>
+    </div>
+
+  </div>
+</nav>
