@@ -8,10 +8,16 @@
   bottom: 0px;
   padding: 30px 0;
   position: relative;
+
+  &-copyrights {
+    pointer-events: none;
+  }
 }
 
 #footer p {
   margin-top: 14px;
+  text-decoration: none;
+  color: inherit;
 }
 #footer ul {
   margin-top: 10px;
