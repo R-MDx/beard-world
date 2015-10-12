@@ -9139,23 +9139,28 @@ button.close {
   bottom: 0px;
   padding: 30px 0;
   position: relative; }
+  /* line 12, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_footer.css.scss */
+  #footer-copyrights {
+    pointer-events: none; }
 
-/* line 13, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_footer.css.scss */
+/* line 17, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_footer.css.scss */
 #footer p {
-  margin-top: 14px; }
+  margin-top: 14px;
+  text-decoration: none;
+  color: inherit; }
 
-/* line 16, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_footer.css.scss */
+/* line 22, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_footer.css.scss */
 #footer ul {
   margin-top: 10px; }
 
-/* line 19, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_footer.css.scss */
+/* line 25, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_footer.css.scss */
 #footer a {
   color: #CCCCCC;
   font-size: 30px;
   letter-spacing: 20px;
   transition: color 0.5s ease; }
 
-/* line 25, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_footer.css.scss */
+/* line 31, /home/acer/middleman_apps/beard_world/source/stylesheets/layout/_footer.css.scss */
 #footer a:hover {
   color: yellow; }
 
