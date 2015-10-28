@@ -1,7 +1,7 @@
 <nav class="navbar-beardworld">
   <div class="container navbar-beardworld-container">
 
-    <% link_to "/" do %>
+    <% link_to "./index.html" do %>
       <%= image_tag "download.png", class: "navbar-beardworld-logo" %>
     <% end %>
 
@@ -13,11 +13,13 @@
     </form>
 
     <div class="navbar-beardworld-item">
-      <%= link_to "Products", "products.html", class: "navbar-beardworld-button btn btn-default" %>
+      <%= link_to "Products", "./products.html", class: "navbar-beardworld-button btn btn-default" %>
       <!-- <a href="/products.html" class="navbar-beardworld-button btn btn-default">Products</a> -->
     </div>
 
-    <a href="/help.html" class="navbar-beardworld-item navbar-beardworld-link">Help</a>
+    <!-- <a href="/help.html" class="navbar-beardworld-item navbar-beardworld-link">Help</a> -->
+    <%= link_to "Help", "./help.html", class: "navbar-beardworld-item navbar-beardworld-link" %>
+
 
     <a href="" class="navbar-beardworld-item navbar-beardworld-link">
       <div class="icon-badge-container">
