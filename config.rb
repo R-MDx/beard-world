@@ -31,12 +31,13 @@ activate :autoprefixer
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
-proxy "beard-world/help", "/help.html"
-proxy "beard-world/products", "/products.html"
-
-# data.works.each do |item|
-#   proxy "/references/#{item.clean}.html", "/work.html", :locals => { :code => item }, :ignore => true
+# ready do
+#   sitemap.resources.group_by {|p| p.data["navbar"] }.each do |help, products|
+#     proxy "/categories/#{navbar}.html", "navbar.html",
+#       :locals => { :help => help, :products => products }
+#   end
 # end
+
 ###
 # Helpers
 ###
