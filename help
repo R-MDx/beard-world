@@ -26,7 +26,7 @@
     <![endif]-->
 
   </head>
-  <body class="index">
+  <body class="help">
 
     <canvas id="canvas"></canvas>
     <script src="javascripts/all.js" type="text/javascript"></script>
@@ -71,83 +71,13 @@
   </div>
 </nav>
 
-    <!-- <div id="main">
-
-
- -->
-
-<body>
-<!--   <div class="banner text-center" style="background-image: url('http://unsplash.it/1000/700/?image=0')">
-    <div class="banner-shadow"></div>
-    <div class="banner-content fade-and-slide">
-      <h1>Startup tools</h1>
-      <p>Very cool stuff and useful</p>
-      <a href="#" class="btn btn-primary btn-lg">GET IT</a>
-    </div>
-  </div>
-
-  <div class="padded">
-    <div class="container">
-      <div class="col-xs-12 col-sm-3">
-        <div class="feature">
-          <h2>
-            <img src="images/chat.png" alt="">
-            Discuss best tools
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni.
-          </p>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-3">
-        <div class="feature">
-          <h2>
-            <img src="images/mobile.png" alt="">
-            Always in sync
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia beatae, repellendus eveniet alias vel laboriosam, necessitatibus error cum asperiores facere aliquam consectetur ad impedit molestiae, harum? Vel, quidem, sit.
-          </p>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-3">
-        <div class="feature">
-          <h2>
-            <img src="images/search.png" alt="">
-            Powerful search
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis optio adipisci minus vero voluptatum soluta corporis alias ut commodi non quaerat quasi reprehenderit sit dolore nulla qui cum explicabo, possimus.
-          </p>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-3">
-        <div class="feature">
-          <h2>
-            <img src="images/heart.png" alt="">
-            Share the love
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ab cumque delectus, reiciendis fugit molestiae totam obcaecati exercitationem illum amet, recusandae, odio est. Repudiandae sapiente provident, sint reprehenderit necessitatibus, magni.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
- -->
-  <div class="text-center welcome-text">
-    <h1>beard world</h1>
-    <h2>The one-stop shop for all your beard needs</h2>
-    <h3>" There are two types of people in the world without beards: women and children. I am neither one. " - Marcian Diamond</h3>
-  </div>
-
-  <div class="text-center padded" id="newsletter">
-    <h2>Get news from us</h2>
-    <h3>Leave us your mail to get the latest products</h3>
-    <form class="form-inline">
-      <input placeholder="foo@bar.com" class="form-control" type="email">
-      <input value="Subscribe" class="btn btn-primary btn-bordered btn-bordered-primary" type="submit">
-    </form>
+    <body>
+  <div class="welcome-text">
+    <h1>help</h1>
+    <h2>Dear user you reached the help section</h2>
+    <h3>We are a fucked up team so you have to fix the problem by your own</h3>
+    <h3>And as a reward we are providing one year free beard shampoo</h3>
+    <h2>Sheer UP ! Mate :D</h2>
   </div>
 </body>
 
