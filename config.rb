@@ -34,7 +34,9 @@ activate :autoprefixer
 proxy "/help", "/help.html"
 proxy "/products", "/products.html"
 
-
+# data.works.each do |item|
+#   proxy "/references/#{item.clean}.html", "/work.html", :locals => { :code => item }, :ignore => true
+# end
 ###
 # Helpers
 ###
